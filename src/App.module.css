@@ -1,0 +1,84 @@
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 16px;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.navbar {
+  background-color: #157b32;
+  padding: 16px;
+  color: white;
+}
+.navContainer {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.addForm {
+  margin-bottom: 16px;
+}
+.inputField {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.todoList { 
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eafff5;
+  padding: 12px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.todoText {
+  flex: 1;
+  cursor: pointer;
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+.deleteButton {
+  color: rgb(15, 91, 28);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+.detailsButton {
+  margin-left: 10px;
+  color: rgb(15, 81, 17);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.subtaskContainer {
+  margin-top: 12px;
+  padding-left: 12px;
+  border-left: 2px solid #ccc;
+}
+
+.subtaskList {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
